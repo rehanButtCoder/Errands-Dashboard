@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <filter id="oval" x="0" y="0" width="39" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_edit_complete" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#oval)">
+      <g id="oval-2" data-name="oval" transform="translate(9 6)" fill="#fff" stroke="#1f8b47" stroke-width="0.5">
+        <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+        <circle cx="10.5" cy="10.5" r="10.25" fill="none"/>
+      </g>
+    </g>
+    <path id="icon_edit" d="M4.5,12.3v2.054H6.554L12.613,8.3,10.559,6.245Zm9.7-5.593a.546.546,0,0,0,0-.772L12.92,4.656a.546.546,0,0,0-.772,0l-1,1L13.2,7.713l1-1Z" transform="translate(1.273 1.073)" fill="#1f8b47"/>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <filter id="oval" x="0" y="0" width="39" height="39" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="icon_view_complete" transform="translate(9 6)">
+    <g id="icon_view_complete-2" data-name="icon_view_complete">
+      <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#oval)">
+        <g id="oval-2" data-name="oval" transform="translate(9 6)" fill="#fff" stroke="#f8d04e" stroke-width="0.5">
+          <circle cx="10.5" cy="10.5" r="10.5" stroke="none"/>
+          <circle cx="10.5" cy="10.5" r="10.25" fill="none"/>
+        </g>
+      </g>
+      <g id="icon_view" transform="translate(2.748 -0.875)">
+        <path id="Path_18916" data-name="Path 18916" d="M7.71,7.875c-1.961,0-3.508,1.234-5.357,3.252a.386.386,0,0,0,0,.52C3.934,13.4,5.33,14.9,7.71,14.9c2.352,0,4.115-1.9,5.369-3.269a.383.383,0,0,0,.012-.5C11.813,9.578,10.045,7.875,7.71,7.875Zm.107,5.706A2.2,2.2,0,1,1,9.908,11.49,2.2,2.2,0,0,1,7.818,13.581Z" transform="translate(0)" fill="#f8d04e"/>
+        <path id="Path_18917" data-name="Path 18917" d="M15.062,13.915a1.146,1.146,0,0,1,.076-.412l-.076,0a1.561,1.561,0,1,0,1.561,1.561c0-.032,0-.063,0-.1a1.082,1.082,0,0,1-.444.1A1.132,1.132,0,0,1,15.062,13.915Z" transform="translate(-7.347 -3.674)" fill="#f8d04e"/>
+      </g>
+    </g>
+  </g>
+</svg>
